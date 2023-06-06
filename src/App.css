@@ -1,0 +1,41 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: gray;
+  color: white;
+}
+.nav-links{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 40px;
+}
+.nav-links li{
+  margin-left: 20px;
+}
+.logo{
+  margin-left: 30px;
+}
+.aulas{
+  font-size: 20px;
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link{
+  color: gray;
+}
+button{
+  border-radius: 5px;
+  border-style: none;
+}
